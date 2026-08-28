@@ -48,7 +48,9 @@ Any options that don't belong to SvelteKit are passed through to [`vite-plugin-s
 <div class="ts-block">
 
 ```dts
-function sveltekit(config?: Config): Promise<Plugin[]>;
+function sveltekit(
+	config?: Config
+): Promise<import('vite').Plugin[]>;
 ```
 
 </div>
